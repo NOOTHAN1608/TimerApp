@@ -1,0 +1,13 @@
+This React Native application allows users to create, manage, and interact with multiple customizable timers. The app uses an image from Pixabay as the background and applies internal styling through StyleSheet.
+
+When the app is opened using Expo Go by scanning the QR code, the user is first navigated to the timer creation screen where they can add a timer by providing a name, duration, and category.
+
+After adding, timers appear in a scrollable view from top to bottom, animated using the @keyframes concept to give a smooth visual transition.
+
+Each timer card includes a progress bar that starts in green and turns red when the remaining time is less than or equal to half the duration.
+
+Users can start, pause, and reset individual timers. The application also supports resetting all timers at once .
+
+When a timer completes, a congratulatory message is displayed, and the timer’s details including name, category, duration, and current completion time are saved to local storage as part of the history feature.
+
+This project demonstrates basic animation, time-based interactivity, local data storage, and UI feedback, all in a mobile-friendly React Native environment.
